@@ -17,13 +17,11 @@ import sys
 
 
 sys.path.insert(0, os.path.abspath('../..'))
-#sys.path.insert(0, os.path.abspath('../../cloudnetpy/'))
-
 
 # -- Project information -----------------------------------------------------
 
-project = 'wivern2-chilbolton'
-copyright = '2022, UK Research and Innovation'
+project = 'wivernex-uk-chilbolton'
+copyright = '2023, UK Research and Innovation'
 author = 'Chris Walden'
 
 # The short X.Y version
@@ -127,7 +125,7 @@ def setup(app):
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'wivern2doc'
+htmlhelp_basename = 'wivernexukdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -154,8 +152,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'wivern2-chilbolton.tex', 'Documentation for WIVERN-2 Chilbolton Radar Campaign Data',
-     'Chris Walden, UK Research and Innovation \\and and National Centre for Atmospheric Science', 'manual'),
+    (master_doc, 'wivernex-uk-chilbolton.tex', 'Documentation for WIVERNex-UK Chilbolton Radar Campaign Data',
+     'Chris Walden, UK Research and Innovation \\and National Centre for Atmospheric Science', 'manual'),
 ]
 
 
@@ -164,7 +162,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wivern2-chilbolton', 'wivern2-chilbolton Documentation',
+    (master_doc, 'wivernex-uk-chilbolton', 'wivernex-uk-chilbolton Documentation',
      [author], 1)
 ]
 
@@ -175,8 +173,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'wivern2-chilbolton', 'wivern2-chilbolton Documentation',
-     author, 'wivern2-chilbolton', 'One line description of project.',
+    (master_doc, 'wivernex-uk-chilbolton', 'wivernex-uk-chilbolton Documentation',
+     author, 'wivernex-uk-chilbolton', 'One line description of project.',
      'Miscellaneous'),
 ]
 
