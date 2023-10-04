@@ -25,7 +25,7 @@ File format description
 =======================
 
 Level 1 files are provided, and follow the description below.  They have been
-derived by processing Level 0a (as-recorded) data, with the processing steps
+derived by processing Level 0b (as-recorded) data, with the processing steps
 indicated in the history attribute.  See :ref:`raw-data-conversion` for a
 summary of processing software.
 
@@ -44,8 +44,7 @@ The following dimensions are present for all three radars: `time`, `pulse` and `
 Global attributes
 .................
 
-The left column of the following table lists global attributes. The right column provides example attribute values
-relevant to the 94GHz Galileo radar.
+The left column of the following table lists global attributes. The right column provides example attribute values.
 
 .. tabularcolumns:: |>{\raggedright\arraybackslash}\X{3}{8}|>{\raggedright\arraybackslash}\X{5}{8}|
 
@@ -221,8 +220,6 @@ Coordinate variables
 
 Field variables
 ...............
-
-**94GHz Galileo radar**
 
 .. tabularcolumns:: |>{\raggedright\arraybackslash}\X{2}{12}|>{\raggedright\arraybackslash}\X{1}{12}|>{\raggedright\arraybackslash}\X{2}{12}|>{\raggedright\arraybackslash}\X{4}{12}|>{\raggedright\arraybackslash}\X{3}{12}|
 
